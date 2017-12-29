@@ -40,6 +40,18 @@ header a:hover {
   text-align: center;
 }
 
+.about-us {
+  background-color: #F9C5DB;
+}
+
+.list {
+  background-color: #C81D6A;
+}
+
+footer {
+  background-color: #58B94A;
+}
+
 @media only screen and (min-width: 50em) {
 
   header ul {
