@@ -41,15 +41,19 @@ header a:hover {
 }
 
 .about-us {
-  background-color: #F9C5DB;
+  background-color: #f9c5db;
 }
 
 .list {
-  background-color: #C81D6A;
+  background-color: #c81d6a;
 }
 
 footer {
-  background-color: #58B94A;
+  background-color: #58b94a;
+}
+
+footer nav {
+  text-align: right;
 }
 
 @media only screen and (min-width: 50em) {
