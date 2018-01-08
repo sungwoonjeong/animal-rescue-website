@@ -1,3 +1,11 @@
+html {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+h1 {
+  color: #fff;
+}
+
 header ul {
   text-align: center;
 }
@@ -7,10 +15,18 @@ header li {
 }
 
 header a {
-  color: #6aa8e0;
+  color: #a83963;
   display: inline-block;
   text-decoration: none;
   width: 100%;
+}
+
+footer a {
+  color: #000;
+}
+
+a:focus {
+  outline: 3px solid red;
 }
 
 header a:hover {
@@ -69,6 +85,21 @@ header a:hover {
 
 .donation {
   background-color: #ffcfc2;
+}
+
+.donation .btn {
+  border-color: #000;
+  color: #000;
+}
+
+.btn-ghost {
+  border-color: #a83963;
+  color: #a83963;
+}
+
+.btn-ghost:hover {
+  border-color: #6aa8e0;
+  color: #6aa8e0;
 }
 
 footer {
