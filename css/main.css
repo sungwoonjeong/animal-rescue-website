@@ -32,7 +32,28 @@ header a:hover {
   background-color: #fff;
   margin: 0 .5em 1em;
   max-width: 15em;
-  padding: 1em;
+  padding: .5rem;
+  border: 3px solid #e2e2e2;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.adopt {
+  list-style-type: none;
+  text-align: center;
+}
+
+.adopt img {
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.adopt li {
+  display: inline-block;
+  background-color: #fff;
+  margin: 0 .5em 1em;
+  max-width: 15em;
+  padding: 0;
   border: 3px solid #e2e2e2;
   border-radius: 10px;
   text-align: center;
@@ -44,6 +65,10 @@ header a:hover {
 
 .list {
   background-color: #c81d6a;
+}
+
+.donation {
+  background-color: #ffcfc2;
 }
 
 footer {
