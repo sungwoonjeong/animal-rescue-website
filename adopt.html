@@ -72,30 +72,67 @@
           <div class="grid">
             <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
               <label for="name">First Name</label>
-              <input id="name" name="name">
+              <input id="name" name="name" required>
             </div>
 
             <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
               <label for="last-name">Last name</label>
-              <input id="last-name" type="text" name="last-name">
+              <input id="last-name" type="text" name="last-name" required>
             </div>
           </div>
 
           <div class="grid">
             <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
               <label for="age">Age</label>
-              <input id="age" type="number" name="age">
+              <input id="age" type="number" name="age" required>
+            </div>
+
+            <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+              <label for="gender">Gender</label>
+              <select id="gender">
+                <option>Male</option>
+                <option>Female</option>
+              </select>
             </div>
 
             <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
               <label for="email">Your email</label>
-              <input id="email" type="email" placeholder="me@gmail.com" name="email">
+              <input id="email" type="email" placeholder="me@gmail.com" name="email" required>
             </div>
+
+            <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+              <label for="alternativeemail">Alternative Email</label>
+              <input id="alternativeemail" type="email" placeholder="me@gmail.com" name="alternativeemail">
+            </div>
+
+            <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+              <label for="married">Married</label>
+              <select id="married">
+                <option>Yes</option>
+                <option>No</option>
+              </select>
+            </div>
+
+            <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+              <label for="child">Number of Child (if required)</label>
+              <input id="child" type="number" name="child">
+            </div>
+
+            <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+              <label for="pfn">Partner First Name (if required)</label>
+              <input id="pfn" name="name">
+            </div>
+
+            <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+              <label for="pln">Partner Last name (if required)</label>
+              <input id="pln" type="text" name="pln">
+            </div>
+
           </div>
 
           <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1">
             <label for="address">Address</label>
-            <input id="address" type="text" name="address">
+            <input id="address" type="text" name="address" required>
           </div>
 
           <div class="grid">
@@ -108,20 +145,30 @@
               <label for="telephone">Telephone</label>
               <input id="telephone" type="tel" name="telephone">
             </div>
+
+            <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+              <label for="job">Job title</label>
+              <input id="job" type="text" name="job">
+            </div>
+
+            <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1 l-1-2">
+              <label for="cellphone">Cellphone number</label>
+              <input id="cellphone" type="tel" name="cellphone">
+            </div>
           </div>
 
           <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1">
-            <label for="password">Password</label>
-            <input id="password" type="password" name="password">
+            <label for="list">list any other pets that are in the house (type of pet and age of pet)</label>
+            <textarea id="list"></textarea>
           </div>
 
           <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1">
-            <label for="confirm-password">Confirm Password Password</label>
-            <input id="confirm-password" type="password" name="confirm-password">
+            <label for="reason">Why do you want to adopt a dog/cat ?</label>
+            <textarea id="reason"></textarea>
           </div>
 
           <div class="unit gutter-half pad-t-1-4 pad-b-1-2 xs-1 s-1 m-1">
-            <input id="use" type="checkbox">
+            <input id="use" type="checkbox" required>
             <label for="use">I agree to Hopeful Tail’s Terms of use</label>
           </div>
 
