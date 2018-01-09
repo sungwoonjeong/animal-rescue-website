@@ -25,12 +25,12 @@ footer a {
   color: #000;
 }
 
-footer a:hover {
-  color: #fff;
-}
-
 a:focus {
   outline: 3px solid red;
+}
+
+footer a:hover {
+  color: #fff;
 }
 
 header a:hover {
