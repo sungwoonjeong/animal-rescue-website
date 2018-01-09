@@ -33,6 +33,11 @@ header a:hover {
   color: #4b7aa5;
 }
 
+header .btn {
+  color: #fff;
+  border-color: #fff;
+}
+
 .cards {
   list-style-type: none;
   text-align: center;
